@@ -9,23 +9,47 @@ footer {
     right: 0;
     z-index: 10;
     bottom: 0;
+    background-color: gray;
 } 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    width: calc(100vw - 180px) ;
+    height: calc(100vh - 180px);
+    background-color: green;
+    margin-top: 80px;
 } 
-.row {
+.row-c{
     display: flex;
     flex-wrap: wrap;
+    gap: 3px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;}
+
+.col1007{
+    width: 14%;
+    height: 250px;
+    background-color: blue;
 }
 .col25 {
     width: calc(100% / 4);
     height: 80px;
-    background-color: black;
+    
 }
 .col50 {
     width: calc(100% / 2);
     height: 80px;
-    background-color: black;
     border: 1px solid red;
+} 
+body{
+    background-color: black
+} 
+.d-flex{
+    display: flex;
+}
+ .justify-c{
+  justify-content: center;
+} 
+.align-c{
+    align-items: center;
 }
